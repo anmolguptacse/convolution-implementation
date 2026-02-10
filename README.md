@@ -51,7 +51,7 @@ python3 problem_b.py
 ```
 ### 3.Verify equality (Part c)
 ``` bash
-python3 verify.p
+python3 verify.py
 ```
 ### 4.Measure Perforrmance
 ```
