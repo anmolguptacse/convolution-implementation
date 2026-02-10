@@ -38,5 +38,5 @@ Implement convolution with parameters:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/convolution-implementation.git
+git clone https://github.com/anmolguptacse/convolution-implementation.git
 cd convolution-implementation
