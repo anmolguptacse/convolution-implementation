@@ -29,7 +29,7 @@ Implement convolution with parameters:
 ### d) Performance Measurement
 - Uses `perf` command to measure instructions and execution time
 
-### e) Analysis (`analysis.py`)
+### e) Analysis 
 - Performance comparison
 - Memory analysis
 - Speedup calculations
@@ -40,3 +40,20 @@ Implement convolution with parameters:
 ```bash
 git clone https://github.com/anmolguptacse/convolution-implementation.git
 cd convolution-implementation
+```
+### 2. Run individual implementations
+``` bash
+# Naive implementation
+python3 problem_a.py
+
+# Flattened implementation
+python3 problem_b.py
+```
+### 3.Verify equality (Part c)
+``` bash
+python3 verify.p
+```
+### 4.Measure Perforrmance
+```
+perf stat -e instructions,cycles,cpu-clock python3 problem_a.py
+perf stat -e instructions,cycles,cpu-clock python3 problem_b.py
